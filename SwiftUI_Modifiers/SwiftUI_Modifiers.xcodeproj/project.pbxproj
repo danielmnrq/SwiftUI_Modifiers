@@ -11,6 +11,7 @@
 		285857FB25C5F46600369755 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285857FA25C5F46600369755 /* ContentView.swift */; };
 		285857FD25C5F46600369755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285857FC25C5F46600369755 /* Assets.xcassets */; };
 		2858580025C5F46600369755 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285857FF25C5F46600369755 /* Preview Assets.xcassets */; };
+		2858580925C5F8F500369755 /* CustomProgressViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858580825C5F8F500369755 /* CustomProgressViewUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		285857FC25C5F46600369755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		285857FF25C5F46600369755 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2858580125C5F46600369755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2858580825C5F8F500369755 /* CustomProgressViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressViewUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				285857F825C5F46600369755 /* SwiftUI_ModifiersApp.swift */,
+				2858580825C5F8F500369755 /* CustomProgressViewUI.swift */,
 				285857FA25C5F46600369755 /* ContentView.swift */,
 				285857FC25C5F46600369755 /* Assets.xcassets */,
 				2858580125C5F46600369755 /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				285857FB25C5F46600369755 /* ContentView.swift in Sources */,
 				285857F925C5F46600369755 /* SwiftUI_ModifiersApp.swift in Sources */,
+				2858580925C5F8F500369755 /* CustomProgressViewUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

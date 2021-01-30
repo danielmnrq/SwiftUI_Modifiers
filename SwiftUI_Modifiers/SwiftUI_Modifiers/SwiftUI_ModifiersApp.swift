@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_ModifiersApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CustomProgressViewUI()
         }
     }
 }

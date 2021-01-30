@@ -20,6 +20,7 @@ struct ShadowedRoundCorner : ViewModifier {
 struct ContentView: View {
     var body: some View {
         Text("Hello, world modifiers in SwiftUI !")
+            .foregroundColor(.black)
             .roundIt()
             //.modifier(ShadowedRoundCorner())
     }
