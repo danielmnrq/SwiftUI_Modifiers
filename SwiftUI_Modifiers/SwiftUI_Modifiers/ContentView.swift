@@ -7,10 +7,27 @@
 
 import SwiftUI
 
+struct ShadowedRoundCorner : ViewModifier {
+    func body(content : Content) -> some View{
+        content
+        .padding()
+        .background(Color.white)
+        .cornerRadius(30)
+        .shadow(radius: 20 )
+    }
+}
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text("Hello, world modifiers in SwiftUI !")
+            .roundIt()
+            //.modifier(ShadowedRoundCorner())
+    }
+}
+
+extension View {
+    func roundIt() -> some View {
+       self.modifier(ShadowedRoundCorner())
     }
 }
 
@@ -19,3 +36,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
